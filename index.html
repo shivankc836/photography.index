@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Photography Portfolio</title> 
+    <style> 
+        body { 
+            font-family: Arial; 
+            margin: 0; 
+            background: #f5f5f5; 
+        } 
+        header { 
+            background: #222; 
+            padding: 15px; 
+            color: white; 
+            display: flex; 
+            justify-content: space-between; 
+        } 
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin-left: 15px; 
+        } 
+        section { 
+            padding: 20px; 
+        } 
+        .gallery { 
+            display: flex; 
+            gap: 20px; 
+            flex-wrap: wrap; 
+        } 
+        .photo-box { 
+            background: white; 
+            padding: 10px; 
+            border-radius: 8px; 
+            width: 250px; 
+        } 
+        .photo-box img { 
+            width: 100%; 
+            border-radius: 8px; 
+        } 
+        h2 { 
+            margin-bottom: 10px; 
+        } 
+        .booking-box { 
+            background: white; 
+            width: 300px; 
+            padding: 20px; 
+            border-radius: 8px; 
+        } 
+        input, select { 
+            width: 95%; 
+            padding: 8px; 
+            margin: 6px 0; 
+        } 
+        button { 
+            padding: 10px; 
+            background: #222; 
+            color: white; 
+            border: none; 
+            cursor: pointer; 
+            width: 100%; 
+        } 
+    </style> 
+</head> 
+<body> 
+  
+<header> 
+    <h1>LensCraft Photography</h1> 
+    <nav> 
+        <a href="#portfolio">Portfolio</a> 
+        <a href="#categories">Categories</a> 
+        <a href="#booking">Book Session</a> 
+    </nav> 
+</header> 
+  
+<section id="portfolio"> 
+    <h2>Featured Shots</h2> 
+    <div class="gallery"> 
+        <div class="photo-box"> 
+            <img src="https://cdn.wallpapersafari.com/6/8/DtJCad.jpg"> 
+            <p>Landscape</p> 
+        </div> 
+        <div class="photo-box"> 
+            <img src="https://i.pinimg.com/originals/a9/10/a6/a910a65e14d97f1837f1aa507509fa62.jpg"> 
+            <p>Portrait</p> 
+        </div> 
+        <div class="photo-box"> 
+            <img src="https://i.natgeofe.com/n/04f4b7ad-35a8-4bf6-9161-a7ccd1e106bb/prod-yourshot-1791825--2-.jpg"> 
+            <p>Wildlife</p> 
+        </div> 
+    </div> 
+</section> 
+  
+<section id="categories"> 
+    <h2>Photography Categories</h2> 
+    <div class="gallery"> 
+        <div class="photo-box"> 
+            <img src="https://cdn0.weddingwire.in/article/3992/original/1280/jpg/72993-indian-family-photos-oragraphy-teamfun.jpeg"> 
+            <p>Wedding Photography</p> 
+        </div> 
+        <div class="photo-box"> 
+            <img src="https://www.fubiz.net/wp-content/uploads/2016/10/Luminous-Travel-Photography-From-all-around-the-World-0-900x600.jpg"> 
+            <p>Travel Photography</p> 
+        </div> 
+        <div class="photo-box"> 
+            <img src="https://th.bing.com/th/id/R.15aed27a10c48352dee333b59cdb5c95?rik=P71gA7PN%2fLD0rQ&riu=http%3a%2f%2fwww.bigideaphotography.co.uk%2fwp-content%2fuploads%2f2016%2f06%2fBig-Idea-Photography-6.jpg&ehk=cQrDCpKLmmIKSnvvDhsZAvcvUP5R9DUF53ppEVJ87ZU%3d&risl=&pid=ImgRaw&r=0"> 
+            <p>Product Photography</p> 
+        </div> 
+    </div> 
+</section> 
+  
+<section id="booking"> 
+    <h2>Book a Photography Session</h2> 
+    <div class="booking-box"> 
+        <input type="text" placeholder="Full Name"> 
+        <input type="text" placeholder="Phone Number"> 
+        <select> 
+            <option>Select Category</option> 
+            <option>Wedding</option> 
+            <option>Portrait</option> 
+            <option>Event</option> 
+            <option>Product Shoot</option> 
+        </select> 
+        <input type="text" placeholder="Preferred Date"> 
+        <button>Book Now</button> 
+    </div> 
+</section> 
+  
+</body> 
+</html>
